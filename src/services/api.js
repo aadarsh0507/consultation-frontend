@@ -1,10 +1,11 @@
 import axios from 'axios';
 
 
-export const API_URL = 'https://consultation-backend-nmyg.onrender.com/api';
+export const API_URL = 'http://localhost:5000/api';
 
-// 'http://localhost:5000/api'
 
+
+// 'https://consultation-backend-nmyg.onrender.com/api'
 
 // 'https://consultation-backend-nmyg.onrender.com/api'; // Replace with your backend URL
 

@@ -5,9 +5,8 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-
+    "@ffmpeg/core": "^0.12.10",
     "@ffmpeg/ffmpeg": "^0.10.1",
-
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "@testing-library/dom": "^10.4.0",
@@ -28,9 +27,7 @@
     "react-scripts": "5.0.1",
     "react-webcam": "^7.2.0",
     "web-vitals": "^4.2.4",
-
     "webm-duration-fix": "^1.0.4",
-
     "xlsx": "^0.18.5"
   },
   "scripts": {

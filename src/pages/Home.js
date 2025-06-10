@@ -186,7 +186,7 @@ const stopRecording = async () => {
 const fixedBlob = await fixWebmDuration(videoBlob, recordingTime); // duration in seconds
 
 const videoUrl = URL.createObjectURL(fixedBlob);
-const fileName = `${formData.uhidId}_${formData.patientName}.webm`;
+const fileName = `${formData.uhidId}_${formData.patientName}.mp4`;
 
 const downloadLink = document.createElement('a');
 downloadLink.href = videoUrl;

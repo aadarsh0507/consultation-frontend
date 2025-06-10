@@ -7,7 +7,7 @@ import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
-import { consultationAPI } from '../services/api';
+import { consultationAPI, API_URL } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 
 const AdminDashboard = () => {
@@ -142,7 +142,7 @@ const AdminDashboard = () => {
       return;
     }
 
-    const videoPath = `http://localhost:5000/api/videos/${consultation.videoFileName}`;
+   const videoPath = `${API_URL}/videos/${consultation.videoFileName}`;
     setVideoUrl(videoPath);
     setCurrentVideo(consultation);
     setShowVideoModal(true);

@@ -7,7 +7,7 @@ import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
-import { consultationAPI } from '../services/api';
+import { consultationAPI, API_URL } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
